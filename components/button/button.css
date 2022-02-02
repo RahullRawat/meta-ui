@@ -1,0 +1,56 @@
+.btn {
+	border: none;
+	padding: 0.8rem;
+	font-size: 1.8rem;
+	font-weight: 400;
+	border-radius: 0.5rem;
+	color: #fff;
+	min-width: 12rem;
+	cursor: pointer;
+}
+
+.btn-container {
+	margin-bottom: 4rem;
+	display: flex;
+}
+
+.btn-container button {
+	margin-right: 1rem;
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+}
+
+.btn-secondary {
+	background-color: #172b4d;
+}
+
+.btn-danger {
+	background-color: var(--primary-hover);
+}
+
+.btn-link {
+	background-color: var(--primary-color);
+}
+
+.fas {
+	margin-right: 1rem;
+}
+
+.btn-float {
+	border: none;
+	border-radius: 50%;
+	width: 6rem;
+	height: 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-float .fas {
+	font-size: 2rem;
+	margin-left: 1rem;
+}
