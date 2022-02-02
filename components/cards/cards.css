@@ -33,6 +33,7 @@
 }
 .card-horizontal img {
 	width: 45%;
+	object-fit: cover;
 }
 .card-horizontal > div {
 	padding: 2rem;
