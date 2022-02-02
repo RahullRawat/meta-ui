@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/4e7a84495e.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../../assets/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="../../style.css" />
+		<link rel="stylesheet" href="./cards.css" />
+		<title>Cards</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<a href="../../index.html" class="logo md-text">Meta UI</a>
+				<section class="nav-right md-text">
+					<a href="https://github.com/rahullrawat" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://twitter.com/rahul_rawat08" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/rahul-rawat-1492b71bb/"
+						target="_blank"
+					>
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</section>
+			</nav>
+
+			<div class="flex-container">
+				<aside>
+					<div class="sidebar-main-heading md-text">Get Started</div>
+					<div class="sidebar-sub-heading sm-text">
+						<a href="../../introduction.html">Introduction</a>
+					</div>
+					<div class="sidebar-main-heading md-text">Components</div>
+					<ul class="all-components sm-text">
+						<li>
+							<a href="./avatar/avatar.html">Avatar</a>
+						</li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badges/badges.html">Badge</a></li>
+						<li><a href="../button/button.html">Button</a></li>
+						<li><a href="../cards/cards.html" class="active">Card</a></li>
+						<li><a href="../image/image.html">Image</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+					</ul>
+				</aside>
+
+				<div class="content-section">
+					<section>
+						<div class="intro-heading lg-text">Cards</div>
+						<p class="intro-sub-heading sm-text">
+							The card component can contain a variety of content, including a
+							heading, image, content and buttons.
+						</p>
+
+						<div class="intro-heading lg-text">How to use ?</div>
+						<p class="intro-sub-heading sm-text">
+							We have six different types of cards, you just need to copy the
+							code of that card which you want to use.
+						</p>
+
+						<!-- text only card -->
+						<div class="intro-heading lg-text">Text only card</div>
+						<div class="card text-card">
+							<p class="sm-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+								aliquam ex, ullam aut maxime quis nisi. Maxime, hic molestias
+								porro, aperiam amet aliquid quisquam omnis blanditiis quos
+								sapiente dolores eos.
+							</p>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cp%253E%2520text%2520here%2520%253C%252Fp%253E%2520%2520%2520%250A%253C%252Fdiv%253E"
+							style="
+								width: 303px;
+								height: 200px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+
+						<!-- card with shadow -->
+						<div class="intro-heading lg-text">Card with shadow</div>
+						<p class="intro-sub-heading sm-text">
+							To add shadow to any card add card-shadow class.
+						</p>
+						<div class="card card-shadow">
+							<img
+								src="../../assets/illustration-hero.svg"
+								alt="card-example"
+							/>
+							<h1>Card Shadow</h1>
+							<p class="sm-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Voluptates ut pariatur vel quod maxime necessitatibus!
+							</p>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fyour-img%2522%2520alt%253D%2522card-example%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ch1%253ECard%2520shadow%2520example%253C%252Fh1%253E%250A%2509%253Cp%253E%2520Text%2520Here%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+							style="
+								height: 230px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+
+						<!-- card with text overlay -->
+						<div class="intro-heading lg-text">Card with text overlay</div>
+						<p class="intro-sub-heading sm-text">
+							To overlay text over other items, you need to add text-overlay
+							class to the text which you want to overlay.
+						</p>
+						<div class="card card-overlay card-shadow">
+							<img
+								src="../../assets/illustration-hero.svg"
+								alt="card-example"
+							/>
+							<h1 class="text-overlay">Card Overlay</h1>
+							<p class="sm-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Voluptates ut pariatur vel quod maxime necessitatibus!
+							</p>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-overlay%2522%253E%250A%2509%253Cimg%2520src%253D%2522your-img%2522%2520alt%253D%2522card-example%2522%252F%253E%250A%2509%253Ch1%2520class%253D%2522text-overlay%2522%253ECard%2520Overlay%253C%252Fh1%253E%250A%2509%253Cp%253E%2520text%2520here%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+							style="
+								height: 250px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+
+						<!-- horizontal card -->
+						<div class="intro-heading lg-text">Horizontal Card</div>
+						<p class="intro-sub-heading sm-text">
+							To create a horizontal card add class card-horizontal to the card.
+						</p>
+						<div class="card-horizontal card-shadow">
+							<img
+								src="../../assets/illustration-hero.svg"
+								alt="card-example"
+							/>
+							<div>
+								<h1 class="md-text">Horizontal card</h1>
+								<p class="sm-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Velit, laudantium.
+								</p>
+							</div>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2509%253Cimg%2520src%253D%2522your-img%2522%2520alt%253D%2522card-example%2522%252F%253E%250A%2509%253Cdiv%253E%250A%2509%2509%253Ch1%253E%2520Horizontal%2520card%253C%252Fh1%253E%250A%2509%2509%253Cp%253E%250A%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2509%2509Velit%252C%2520laudantium.%250A%2509%2509%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+							style="
+								height: 320px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+
+						<!-- card with badges -->
+						<div class="intro-heading lg-text">Card with badges</div>
+						<p class="intro-sub-heading sm-text">
+							To create a card with badge add class card-badge to the parent div
+							and add class badge-text to any tag or text which you want to use
+							as a badge.
+						</p>
+						<div class="card card-badge card-shadow">
+							<img
+								src="../../assets/illustration-hero.svg"
+								alt="card-example"
+							/>
+							<span class="badge-text sm-text">Music</span>
+							<h1>Card Badge</h1>
+							<p class="sm-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Voluptates ut pariatur vel quod maxime necessitatibus!
+							</p>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-badge%2522%253E%250A%2509%253Cimg%2520src%253D%2522your-img%2522%2509alt%253D%2522card-example%2522%252F%253E%250A%2509%253Cspan%2520class%253D%2522badge-text%2522%253EMusic%253C%252Fspan%253E%250A%2509%253Ch1%253ECard%2520Badge%253C%252Fh1%253E%250A%2509%253Cp%253E%250A%2509%2509Lorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2509%2509Voluptates%2520ut%2520pariatur%2520vel%2520quod%2520maxime%2520necessitatibus%21%250A%2509%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E"
+							style="
+								height: 300px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+
+						<!-- card with dismiss -->
+						<div class="intro-heading lg-text">Card with dismiss</div>
+						<p class="intro-sub-heading sm-text">
+							To create a card with dismiss icon add class card-dismiss to the
+							parent div and add class dismiss to any icon which you want to use
+							as a dismiss icon.
+						</p>
+						<div class="card card-dismiss card-shadow">
+							<img
+								src="../../assets/illustration-hero.svg"
+								alt="card-example"
+							/>
+							<span class="dismiss md-text"
+								><i class="far fa-times-circle"></i
+							></span>
+							<h1>Card Dismiss</h1>
+							<p class="sm-text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Voluptates ut pariatur vel quod maxime necessitatibus!
+							</p>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-dismiss%2522%253E%250A%2509%253Cimg%2520src%253D%2522your-img%2522%2509alt%253D%2522card-example%2522%252F%253E%250A%2509%253Cspan%2520class%253D%2522dismiss%2522%253E%2520your-icon%2520%253C%252Fspan%253E%250A%2509%253Ch1%253ECard%2520Dismiss%253C%252Fh1%253E%250A%2509%253Cp%253E%250A%2509%2509Lorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2509%2509Voluptates%2520ut%2520pariatur%2520vel%2520quod%2520maxime%2520necessitatibus%21%250A%2509%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E"
+							style="
+								height: 300px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+								margin-top: 2rem;
+								margin-bottom: 4rem;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</section>
+
+					<footer>
+						<div class="previous-page sm-text">
+							<i class="fas fa-chevron-left"></i>
+							<a href="../button/button.html">Button</a>
+						</div>
+						<div class="next-page sm-text">
+							<a href="../image/image.html">Image</a>
+							<i class="fas fa-chevron-right"></i>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
