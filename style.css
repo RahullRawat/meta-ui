@@ -269,3 +269,14 @@ footer .fas {
 		margin-left: 0;
 	}
 }
+
+/* button component iframe responsiveness */
+.button-iframe iframe {
+	width: 50%;
+}
+
+@media (max-width: 1024px) {
+	.button-iframe iframe {
+		width: 100%;
+	}
+}

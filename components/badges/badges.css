@@ -1,0 +1,46 @@
+@import url("../avatar/avatar.css");
+:root {
+	--badge-dnd: #f44336;
+	--badge-offline: #808080;
+	--badge-online: #4caf50;
+}
+.badge-container {
+	align-items: baseline;
+	display: flex;
+}
+.badge {
+	margin-right: 1.5rem;
+	position: relative;
+}
+.status-badge {
+	border: 1.3px solid var(--white-color);
+	border-radius: 50%;
+	bottom: 8%;
+	height: 19.5%;
+	position: absolute;
+	right: 16%;
+	width: 18.5%;
+}
+.online {
+	background-color: var(--badge-online);
+}
+.offline {
+	background-color: var(--badge-offline);
+}
+.dnd {
+	background-color: var(--badge-dnd);
+}
+.badge > .fas {
+	font-size: 4rem;
+}
+.badge-icon {
+	border: 1.3px solid var(--white-color);
+	border-radius: 50%;
+	color: var(--white-color);
+	font-size: 1rem;
+	height: 25%;
+	left: 35%;
+	padding: 0.3rem 0.4rem;
+	position: absolute;
+	width: 25%;
+}
