@@ -41,3 +41,21 @@ input[type="text"] {
 	font-weight: 700;
 	color: var(--error-color);
 }
+
+@media (max-width: 1024px) {
+	.input-container {
+		width: 60%;
+	}
+}
+
+@media (max-width: 768px) {
+	.input-container {
+		width: 80%;
+	}
+}
+
+@media (max-width: 480px) {
+	.input-container {
+		width: 100%;
+	}
+}
