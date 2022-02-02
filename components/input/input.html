@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/4e7a84495e.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../../assets/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="../../style.css" />
+		<link rel="stylesheet" href="./input.css" />
+		<title>Input</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<a href="../../index.html" class="logo md-text">Meta UI</a>
+				<section class="nav-right md-text">
+					<a href="https://github.com/rahullrawat" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://twitter.com/rahul_rawat08" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/rahul-rawat-1492b71bb/"
+						target="_blank"
+					>
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</section>
+			</nav>
+
+			<div class="flex-container">
+				<aside>
+					<div class="sidebar-main-heading md-text">Get Started</div>
+					<div class="sidebar-sub-heading sm-text">
+						<a href="../../introduction.html">Introduction</a>
+					</div>
+					<div class="sidebar-main-heading md-text">Components</div>
+					<ul class="all-components sm-text">
+						<li>
+							<a href="./avatar/avatar.html">Avatar</a>
+						</li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badges/badges.html">Badge</a></li>
+						<li><a href="../button/button.html">Button</a></li>
+						<li><a href="../cards/cards.html">Card</a></li>
+						<li><a href="../image/image.html">Image</a></li>
+						<li><a href="../input/input.html" class="active">Input</a></li>
+					</ul>
+				</aside>
+
+				<div class="content-section">
+					<section>
+						<div class="intro-heading lg-text">Input</div>
+						<p class="intro-sub-heading sm-text">
+							The input tag specifies an input field where the user can enter
+							data.
+						</p>
+
+						<!-- basic input field -->
+						<div class="intro-heading lg-text">Basic Input Field</div>
+						<p class="intro-sub-heading sm-text">
+							When we want to get input from the user then we will use this
+							basic input fields.
+						</p>
+
+						<div class="input-container">
+							<form class="form">
+								<label class="sm-text">Username : </label>
+								<input type="text" placeholder="Please enter your name" />
+								<label class="sm-text">Password : </label>
+								<input type="text" placeholder="Please enter your name" />
+							</form>
+						</div>
+
+						<!-- with validation and errors style -->
+						<div class="intro-heading lg-text mt-4">
+							Input field with validation and errors style
+						</div>
+						<p class="intro-sub-heading sm-text">
+							Input field with validation and errors style show error-message
+							and change color according to type of error.
+						</p>
+						<div class="input-container">
+							<form class="form">
+								<label class="sm-text">Username : </label>
+								<input type="text" class="input-success" />
+								<p class="sm-text success-msg">Correct Username</p>
+
+								<label class="sm-text">Password : </label>
+								<input type="text" class="input-error" />
+								<p class="sm-text error-msg">Incorrect Password</p>
+							</form>
+						</div>
+					</section>
+
+					<footer>
+						<div class="previous-page sm-text">
+							<i class="fas fa-chevron-left"></i>
+							<a href="../cards/cards.html">Card</a>
+						</div>
+						<div class="next-page sm-text">
+							<a href="../input/input.html">Input</a>
+							<i class="fas fa-chevron-right"></i>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
