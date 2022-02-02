@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/4e7a84495e.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../../assets/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="../../style.css" />
+		<link rel="stylesheet" href="./button.css" />
+		<title>Button</title>
+	</head>
+	<body>
+		<div class="container button-iframe">
+			<nav>
+				<a href="../../index.html" class="logo md-text">Meta UI</a>
+				<section class="nav-right md-text">
+					<a href="https://github.com/rahullrawat" target="_blank"
+						><i class="fab fa-github"></i
+					></a>
+					<a href="https://twitter.com/rahul_rawat08" target="_blank"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/rahul-rawat-1492b71bb/"
+						target="_blank"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+				</section>
+			</nav>
+
+			<div class="flex-container">
+				<aside>
+					<div class="sidebar-main-heading md-text">Get Started</div>
+					<div class="sidebar-sub-heading sm-text">
+						<a href="../../introduction.html">Introduction</a>
+					</div>
+					<div class="sidebar-main-heading md-text">Components</div>
+					<ul class="all-components sm-text">
+						<li>
+							<a href="./avatar/avatar.html">Avatar</a>
+						</li>
+						<li><a href="../alert/alert.html">Alert</a></li>
+						<li><a href="../badges/badges.html">Badge</a></li>
+						<li><a href="../button/button.html" class="active">Button</a></li>
+						<li><a href="../cards/cards.html">Card</a></li>
+						<li><a href="../image/image.html">Image</a></li>
+						<li><a href="../input/input.html">Input</a></li>
+					</ul>
+				</aside>
+
+				<div class="content-section">
+					<section>
+						<div class="intro-heading lg-text">Buttons</div>
+						<p class="intro-sub-heading sm-text">
+							Buttons are also called as call to action. We have different types
+							of buttons and their states. It allow users to take actions, and
+							make choices, with a single tap.
+						</p>
+
+						<div class="intro-heading lg-text">How to use ?</div>
+						<p class="intro-sub-heading sm-text">
+							You may use a tag or button element, you need to add respective
+							classes, and you are good to go.
+						</p>
+					</section>
+
+					<!-- Primary btn html -->
+					<section>
+						<div class="intro-heading lg-text">Primary Button</div>
+
+						<div class="btn-container">
+							<button class="btn btn-primary">Primary</button>
+							<button class="btn btn-secondary">Secondary</button>
+							<button class="btn btn-danger">Danger</button>
+						</div>
+
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+							style="
+								height: 300px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</section>
+
+					<!-- link btn html -->
+					<section>
+						<div class="intro-heading lg-text">Link Button</div>
+						<p class="intro-sub-heading sm-text mb-2">
+							If you want to link an url to button then use Link Button
+						</p>
+
+						<button class="btn btn-link">
+							<a href="your-link">Link</a>
+						</button>
+					</section>
+					<iframe
+						src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%250A%2509%253Ca%2520href%253D%2522your-link%2522%253ELink%253C%252Fa%253E%2509%2520%2520%250A%253C%252Fbutton%253E"
+						style="
+							height: 250px;
+							border: 0;
+							transform: scale(1);
+							overflow: hidden;
+							margin-top: 4rem;
+						"
+						sandbox="allow-scripts allow-same-origin"
+					>
+					</iframe>
+
+					<!-- icon btn html -->
+					<section>
+						<div class="intro-heading lg-text">Button with icon</div>
+						<p class="intro-sub-heading sm-text">
+							Icon button is a combination of a standard button with icon inside
+							it. Icon button is used to enhance user experience.
+						</p>
+
+						<div class="btn-container">
+							<button class="btn btn-primary icon-btn">
+								<i class="fas fa-save"></i>
+								Save
+							</button>
+							<button class="btn btn-secondary icon-btn">
+								<i class="fas fa-trash"></i>
+								Delete
+							</button>
+						</div>
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520icon-btn%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520Save%250A%253C%252Fbutton%253E"
+							style="
+								height: 230px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</section>
+
+					<!-- floating btn html -->
+					<section>
+						<div class="intro-heading lg-text">Floating Button</div>
+
+						<div class="btn-container">
+							<button class="btn-primary btn-float">
+								<i class="fas fa-plus"></i>
+							</button>
+							<button class="btn-secondary btn-float">
+								<i class="fas fa-moon"></i>
+							</button>
+						</div>
+
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2520btn-float%2522%253E%2520%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+							style="
+								height: 220px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</section>
+
+					<footer>
+						<div class="previous-page sm-text">
+							<i class="fas fa-chevron-left"></i>
+							<a href="../badges/badges.html">Badge</a>
+						</div>
+						<div class="next-page sm-text">
+							<a href="../cards/cards.html">Card</a>
+							<i class="fas fa-chevron-right"></i>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
