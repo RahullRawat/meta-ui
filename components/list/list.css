@@ -1,0 +1,28 @@
+.list {
+	width: 30rem;
+	border: 1px solid var(--light-text-color);
+	border-radius: 0.5rem;
+	padding: 2rem;
+}
+
+.list-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 0.5px solid var(--light-text-color);
+}
+
+.list > li {
+	font-size: 1.8rem;
+	line-height: 4rem;
+	margin-left: 1.5rem;
+	cursor: pointer;
+}
+
+.list-stacked > li {
+	padding: 1rem;
+	background-color: lightgray;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+}
