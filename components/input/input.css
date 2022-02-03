@@ -1,0 +1,56 @@
+.form > label {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+	border: 1px solid var(--light-text-color);
+	padding: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	outline: none;
+	border-radius: 0.5rem;
+}
+
+.input-container {
+	width: 40%;
+	margin-bottom: 4rem;
+}
+
+.form .input-success {
+	border: 1.5px solid var(--success-color);
+}
+
+.form .success-msg {
+	font-weight: 700;
+	color: var(--success-color);
+	margin-bottom: 2.5rem;
+}
+
+.form .input-error {
+	border: 1.5px solid var(--error-color);
+}
+
+.form .error-msg {
+	font-weight: 700;
+	color: var(--error-color);
+}
+
+@media (max-width: 1024px) {
+	.input-container {
+		width: 60%;
+	}
+}
+
+@media (max-width: 768px) {
+	.input-container {
+		width: 80%;
+	}
+}
+
+@media (max-width: 480px) {
+	.input-container {
+		width: 100%;
+	}
+}

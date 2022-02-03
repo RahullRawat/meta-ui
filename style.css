@@ -13,6 +13,9 @@
 	--dark-text-color: #3f4049;
 	--light-text-color: #5a5a5a;
 	--white-color: #ffffff;
+	/* input component */
+	--error-color: #dc3545;
+	--success-color: #1b7052;
 }
 
 html {
@@ -66,6 +69,10 @@ li {
 .xs-text {
 	font-size: 0.8rem;
 	line-height: 1.6rem;
+}
+
+.mt-4 {
+	margin-top: 4rem;
 }
 
 /* navbar style starts */
