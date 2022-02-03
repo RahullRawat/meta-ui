@@ -1,0 +1,38 @@
+@import url("../button/button.css");
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	padding: 1.3rem;
+}
+
+.nav-brand-title {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.nav-center {
+	font-weight: 700;
+}
+
+.nav-center > a {
+	padding: 0 1rem;
+}
+
+.btn-nav {
+	text-align: center;
+	color: var(--primary-color);
+	background-color: var(--white-color);
+	padding: 0.4rem 1.4rem;
+	margin-left: 1rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.nav-links .far {
+	margin: 0 2.5rem 0 2rem;
+	font-weight: 700;
+}
