@@ -1,0 +1,49 @@
+.text-container > * {
+	color: var(--light-text-color);
+	margin-bottom: 1.5rem;
+}
+
+h1 {
+	font-size: 4.5rem;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3.5rem;
+}
+
+h4 {
+	font-size: 3rem;
+}
+
+h5 {
+	font-size: 2.5rem;
+}
+
+h6 {
+	font-size: 2rem;
+}
+
+p,
+span {
+	font-size: 2rem;
+}
+
+.text-gray {
+	color: var(--light-text-color);
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
