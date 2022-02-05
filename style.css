@@ -134,7 +134,7 @@ main .description {
 	color: var(--dark-text-color);
 }
 
-main .btn-container .btn {
+main .landing-btn-container .btn {
 	display: inline-block;
 	font-weight: 700;
 	background-color: var(--primary-color);
@@ -143,22 +143,22 @@ main .btn-container .btn {
 	border-radius: 0.4rem;
 }
 
-main .btn-container .btn-primary {
+main .landing-btn-container .btn-primary {
 	color: var(--white-color);
 	margin-right: 2rem;
 }
 
-main .btn-container .btn-primary:hover {
+main .landing-btn-container .btn-primary:hover {
 	background-color: var(--primary-hover);
 }
 
-main .btn-container .btn-secondary {
+main .landing-btn-container .btn-secondary {
 	color: var(--primary-color);
 	background-color: transparent;
 	border: 1px solid var(--primary-color);
 }
 
-main .btn-container .btn-secondary:hover {
+main .landing-btn-container .btn-secondary:hover {
 	color: var(--primary-hover);
 	background-color: transparent;
 	border: 1px solid var(--primary-hover);
@@ -191,7 +191,6 @@ main .btn-container .btn-secondary:hover {
 /* sidebar starts */
 .flex-container aside {
 	width: 15%;
-	/* background-color: lawngreen; */
 }
 
 .sidebar-main-heading {
@@ -224,7 +223,6 @@ main .btn-container .btn-secondary:hover {
 .flex-container .content-section {
 	width: 70%;
 	margin-left: 10rem;
-	/* background-color: lightcoral; */
 }
 
 .intro-heading {
