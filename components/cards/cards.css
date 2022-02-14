@@ -68,7 +68,7 @@
 	border-radius: 0.5rem;
 }
 
-.product-card > a > img {
+.product-card > .product-card-link > .product-card-image {
 	width: 100%;
 }
 
