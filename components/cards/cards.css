@@ -61,6 +61,82 @@
 	right: 2%;
 	top: 2%;
 }
+
+.product-card {
+	width: 24rem;
+	margin-top: 5rem;
+	border-radius: 0.5rem;
+}
+
+.product-card > .product-card-link > .product-card-image {
+	width: 100%;
+}
+
+.product-card > .price-container {
+	padding: 1rem 0rem;
+}
+
+.product-card > .price-container > p {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: var(--primary-hover);
+}
+
+.product-card > .price-container > .currency {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.btn-primary {
+	width: 100%;
+	font-size: 1.8rem;
+}
+
+.card-horizontal > .card-content {
+	padding: 3rem;
+}
+
+.card-horizontal > div > h1 {
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.card-horizontal > div > h6 {
+	font-size: 1.6rem;
+	margin-top: 1rem;
+	color: var(--currency-color);
+}
+
+.product-quantity-container {
+	display: flex;
+	margin: 2.5rem 0;
+}
+
+.product-quantity {
+	margin-left: 2.5rem;
+	display: flex;
+}
+
+.product-quantity-decrease,
+.product-quantity-increase {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.product-quantity-input {
+	max-width: 4rem;
+	height: 2.5rem;
+	margin: 0 0.5rem;
+}
+
+.card-content > h1 {
+	color: var(--primary-hover);
+}
+
+.product-quantity-container > span {
+	color: var(--primary-hover);
+}
+
 @media (max-width: 1024px) {
 	.card {
 		width: 55%;
