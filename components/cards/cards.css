@@ -149,6 +149,7 @@
 		width: 100%;
 	}
 }
+
 @media (max-width: 768px) {
 	.card {
 		width: 100%;
@@ -199,5 +200,33 @@
 		max-width: 3rem;
 		height: 2rem;
 		margin: 0 0.5rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.text-overlay {
+		bottom: 50%;
+	}
+
+	.product-card-horizontal {
+		max-width: 30rem;
+	}
+
+	.product-card-horizontal > .card-content {
+		padding: 0rem 1rem 0rem 1rem;
+	}
+
+	.product-quantity-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.product-quantity-container > span {
+		margin-bottom: 0.5rem;
+	}
+
+	.card-horizontal > .card-content > a > .btn-primary {
+		width: 100%;
+		font-size: 1.2rem;
 	}
 }
