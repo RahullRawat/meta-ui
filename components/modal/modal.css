@@ -1,0 +1,10 @@
+.modal-container{
+    max-width: 50rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 80%);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.modal-container .modal-btn-container > .btn{
+margin: 2rem;
+}

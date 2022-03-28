@@ -30,6 +30,7 @@
 	/* input component */
 	--error-color: #dc3545;
 	--success-color: #1b7052;
+	--warning-color: #ff9204;
 }
 
 html {

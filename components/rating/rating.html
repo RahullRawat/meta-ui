@@ -15,8 +15,8 @@
 			href="../../assets/favicon-32x32.png"
 		/>
 		<link rel="stylesheet" href="../../style.css" />
-		<link rel="stylesheet" href="./alert.css" />
-		<title>Alert</title>
+		<link rel="stylesheet" href="./rating.css" />
+		<title>Rating</title>
 	</head>
 	<body>
 		<div class="container">
@@ -49,7 +49,7 @@
 							<a href="../avatar/avatar.html">Avatar</a>
 						</li>
 						<li>
-							<a href="../alert/alert.html" class="active">Alert</a>
+							<a href="../alert/alert.html">Alert</a>
 						</li>
 						<li><a href="../badges/badges.html">Badge</a></li>
 						<li><a href="../button/button.html">Button</a></li>
@@ -65,54 +65,43 @@
 						</li>
 						<li><a href="../grid/grid.html">Grid</a></li>
 						<li><a href="../slider/slider.html">Slider</a></li>
-						<li><a href="../rating/rating.html">Rating</a></li>
-						<li><a href="../modal/modal.html">Modal</a></li>
+						<li><a href="../rating/rating.html" class="active">Rating</a></li>
+						<li><a href="../modal/modal.html" >Modal</a></li>
 					</ul>
 				</aside>
 
 				<div class="content-section">
 					<section>
-						<div class="intro-heading lg-text">Alert</div>
+						<div class="intro-heading lg-text">Rating</div>
 						<p class="intro-sub-heading sm-text">
-							Alerts displays a short and important message which are used to
-							attract user's attention for important information without
-							interrupting the user's flow.
+							Ratings provide insight regarding others' opinions and
+							experiences, and can allow the user to submit a rating of their
+							own.
 						</p>
 
 						<div class="intro-heading lg-text">How to use ?</div>
 						<p class="intro-sub-heading sm-text">
-							To use Alert component in your projects you just need to include
-							class <span>alert</span> in your code.
+							To use Rating component in your projects you just need to include
+							class <span>rating</span> in your code.
 						</p>
 					</section>
 
-					<section class="alert-container sm-text">
-						<div class="alert alert-success">
-							<span><i class="fas fa-check-circle"></i></span>
-							A success alert example
-						</div>
-						<div class="alert alert-info">
-							<span><i class="fas fa-info-circle"></i></span>
-							An info alert example!!!!
-						</div>
-						<div class="alert alert-error">
-							<span><i class="fas fa-exclamation-triangle"></i></span>
-							A danger alert example
-						</div>
-						<div class="alert alert-warning">
-							<span><i class="fas fa-exclamation-triangle"></i></span>
-							A warning alert example
-						</div>
+					<section class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
 					</section>
-
 					<iframe
-						src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520simple%2520success%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520info%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253EA%2520simple%2520error%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520warning%2520alert.%253C%252Fdiv%253E"
+						src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=774&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=44px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522rating%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fsection%253E"
 						style="
-							height: 300px;
-							margin-top: 4rem;
+							width: 456px;
+							height: 240px;
 							border: 0;
 							transform: scale(1);
 							overflow: hidden;
+							margin-top: 2rem;
 						"
 						sandbox="allow-scripts allow-same-origin"
 					>
@@ -121,10 +110,10 @@
 					<footer>
 						<div class="previous-page sm-text">
 							<i class="fas fa-chevron-left"></i>
-							<a href="../avatar/avatar.html">Avatar</a>
+							<a href="../slider/slider.html">Slider</a>
 						</div>
 						<div class="next-page sm-text">
-							<a href="../badges/badges.html">Badge</a>
+							<a href="../modal/modal.html">Modal</a>
 							<i class="fas fa-chevron-right"></i>
 						</div>
 					</footer>
