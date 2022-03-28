@@ -1,0 +1,5 @@
+.rating > .fa-star {
+	font-size: 2rem;
+	padding: 0.5rem;
+    color: var(--warning-color);
+}
