@@ -3,7 +3,6 @@ const toast = document.querySelector(".toast");
 const toastClose = document.querySelector(".toast-close");
 
 const showToast = () => {
-	console.log("show");
 	toast.classList.add("show-toast");
 	setTimeout(() => {
 		toast.classList.remove("show-toast");
