@@ -1,0 +1,29 @@
+.toast {
+	display: none;
+}
+
+.toast-msg {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--white-color);
+}
+
+.show-toast {
+	display: block;
+	position: absolute;
+	right: 1%;
+	top: 10%;
+	background-color: var(--primary-hover);
+	padding: 0.8rem 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.toast .toast-close {
+	border: none;
+	color: var(--primary-color);
+	background-color: var(--white-color);
+	padding: 0.4rem 1rem;
+	margin-left: 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
